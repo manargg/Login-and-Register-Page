@@ -145,6 +145,7 @@ a{
     width: 100%;
     padding-left: 55px;
     outline: none;
+    overflow: hidden;
     color: var(--white_color);
     
 }
@@ -226,6 +227,7 @@ input::placeholder, i {
 .nav-menu:hover{
     cursor: pointer;
     background-color: rgb(146, 144, 143);
+    overflow:hidden;
 }
 
 @media (min-width: 1300px) {
