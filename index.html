@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Login And Register Page</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+          <p>LOGO</p>
+        </div>
+        <div class="nav_links">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </div>
+        <div class="nav_btn " >
+            <button class="btn" id="signIn">Sign In</button>
+            <button class="btn" id="signUp">Sign Up</button>
+        </div>
+
+        <div class="nav-menu" id="menu-toggle">
+            <i class="ri-menu-line" ></i>
+        </div>
+
+    </nav>
+    <div class="menu hidden" id="menu" >
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+
+     <!---------------- form container --------------------->
+    <div class="form-container">
+                     <!----------------registration form--------------------->
+        <div class="register-container hidden" id="register">
+            <div class="top">
+                <span>Have an acoount? <a href="#" id="form1">Login</a></span>
+                <h3>Sign Up</h3>
+            </div>
+
+            <div class="forms">
+                <div class="input-box">
+                 <input type="text" class="input" placeholder="Firstname"><i class="ri-user-line"></i>
+                </div>
+     
+                <div class="input-box">
+                 <input type="text" class="input" placeholder="Lastname"><i class="ri-user-line"></i>
+                </div>
+            </div>
+
+                <div class="input-box">
+                 <input type="email" class="input" placeholder="Email"><i class="ri-mail-line"></i>
+                </div>
+     
+                <div class="input-box">
+                 <input type="password" class="input" placeholder="Password"><i class="ri-lock-line"></i>
+                </div>
+     
+                <div class="input-box">
+                     <input type="submit" class="submit" placeholder="Register">
+                </div>
+                
+                <div class="conditions">
+                 <div class="one">
+                     <input type="checkbox" id="register-ckeck">
+                     <label>Remember Me</label>
+                 </div>
+     
+                 <div class="two">
+                    <a href="">Terms and Conditions</a>
+                 </div>
+                </div>
+             
+        </div>
+                      <!----------------login  form--------------------->
+        <div class="login-container" id="login">
+            <div class="top">
+                <span>Don't have an acoount? <a href="#" id="form2">Sign Up</a></span>
+                <h3>Login</h3>
+            </div>
+
+
+                <div class="input-box">
+                 <input type="text" class="input" placeholder="Firstname"><i class="ri-user-line"></i>
+                </div>
+     
+                <div class="input-box">
+                 <input type="text" class="input" placeholder="Lastname"><i class="ri-user-line"></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="submit" class="submit" placeholder="Register">
+               </div>
+               
+               <div class="conditions">
+                <div class="one">
+                    <input type="checkbox" id="register-ckeck">
+                    <label>Remember Me</label>
+                </div>
+    
+                <div class="two">
+                   <a href="">Terms and Conditions</a>
+                </div>
+               </div>
+        </div>
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
