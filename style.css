@@ -226,7 +226,6 @@ input::placeholder, i {
 .nav-menu:hover{
     cursor: pointer;
     background-color: rgb(146, 144, 143);
-    overflow:hidden;
 }
 
 @media (min-width: 1300px) {
