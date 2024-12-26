@@ -7,6 +7,7 @@
 *{
     box-sizing: border-box;
     font-family: "Poppins", serif;
+    outline: none;
 }
 body{
     padding: 0;
