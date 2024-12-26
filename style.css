@@ -7,7 +7,7 @@
 *{
     box-sizing: border-box;
     font-family: "Poppins", serif;
-    outline: none;
+    
 }
 body{
     padding: 0;
@@ -220,10 +220,13 @@ input::placeholder, i {
     text-align: center;
     padding: 5px 10px;
     transition: 0.3s;
+    
 }
 .nav-menu:hover{
     cursor: pointer;
-    background-color: rgb(146, 144, 143);}
+    background-color: rgb(146, 144, 143);
+    overflow:hidden;
+}
 
 
 
