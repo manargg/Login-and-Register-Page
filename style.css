@@ -166,6 +166,7 @@ input::placeholder, i {
     border-radius: 50px;
     border: 0;
     margin-block: 10px;
+    font-size: 1em;
 }
 .submit:hover{
     cursor: pointer;
@@ -228,7 +229,11 @@ input::placeholder, i {
     overflow:hidden;
 }
 
-
+@media (min-width: 1300px) {
+    .form-container{
+      width: 30%;
+    }
+  }
 
 @media (max-width: 1200px) {
   .form-container{
