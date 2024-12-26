@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function () {
+
 const signIn =  document.getElementById("signIn").addEventListener("click", function(){
 
     var register = document.getElementById("register").classList.add("hidden");
@@ -29,4 +31,5 @@ const form2 = document.getElementById("form2").addEventListener("click", functio
 
 const menu = document.getElementById("menu-toggle").addEventListener("click",function(){
      var toggleMenu = document.getElementById("menu").classList.toggle("hidden");
+});
 });
