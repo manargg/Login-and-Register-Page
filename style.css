@@ -172,7 +172,15 @@ input::placeholder, i {
 .conditions{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: var(--white_color);
+}
+.conditions .one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 5px;
 }
 
 
@@ -206,7 +214,7 @@ input::placeholder, i {
 .nav-menu{
     display: none;
     width: 50px;
-    background-color: rgb(192, 191, 190);
+    background-color: rgb(206, 204, 201);
     border-radius: 50px;
     text-align: center;
     padding: 5px 10px;
@@ -243,7 +251,7 @@ input::placeholder, i {
         width: 90%;
       }
       body{
-        font-size: 12px;
+        font-size: 13px;
       }
   
       input::placeholder {
